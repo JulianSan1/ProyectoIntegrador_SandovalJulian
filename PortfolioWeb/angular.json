@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
+              "PortfolioWeb/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "PortfolioWeb/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "94ee2b50-8c7f-42c5-bc45-517810645429"
   }
 }
