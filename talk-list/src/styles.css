@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: sans-serif;    
 }
@@ -18,15 +19,31 @@ body{
     margin: 30px auto;
     overflow: auto;
     min-height: 300px;
-    border: 1px solid steelblue;
+    border: 1px double steelblue;
     padding: 30px;
     border-radius: 5px;
+}
+
+.container:hover {
+    border: 5px solid rgb(0, 140, 255);
+    border-radius: 10px 50px;
+    box-shadow:
+    1.6px 1.6px 1.2px rgba(0, 0, 0, 0.029),
+    3.4px 3.4px 2.7px rgba(0, 0, 0, 0.043),
+    5.8px 5.8px 4.6px rgba(0, 0, 0, 0.054),
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.062),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.07),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.078),
+    25.1px 25.1px 20.1px rgba(0, 0, 0, 0.086),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.097),
+    56.3px 56.3px 45px rgba(0, 0, 0, 0.111),
+    100px 100px 80px rgba(0, 0, 0, 0.14);
 }
 
 .btn {
     display: inline-block;
     background: #000;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -36,12 +53,15 @@ body{
     font-size: 15px;
     font-family: inherit;
 }
+
 .btn:focus {
     outline: none;
 }
+
 .btn:active {
     transform: scale(0.98);
 }
+
 .btn-block {
     display: block;
     width: 100%;
