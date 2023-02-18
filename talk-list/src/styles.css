@@ -24,7 +24,7 @@ body{
     border-radius: 5px;
 }
 
-.container:hover {
+/* .container:hover {
     border: 5px solid rgb(0, 140, 255);
     border-radius: 10px 50px;
     box-shadow:
@@ -38,7 +38,7 @@ body{
     36.5px 36.5px 29.2px rgba(0, 0, 0, 0.097),
     56.3px 56.3px 45px rgba(0, 0, 0, 0.111),
     100px 100px 80px rgba(0, 0, 0, 0.14);
-}
+} */
 
 .btn {
     display: inline-block;

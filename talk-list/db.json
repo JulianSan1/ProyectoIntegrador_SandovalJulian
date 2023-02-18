@@ -17,12 +17,8 @@
             "text": "Investigar sobre Bootstrap",
             "day": "Agosto 5 a las 19:00",
             "reminder": false
-        },
-        {
-            "id": 4,
-            "text": "Nueva Tarea",
-            "day": "Hoy",
-            "reminder": false
         }
     ]
 }
+
+

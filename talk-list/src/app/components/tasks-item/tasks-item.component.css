@@ -9,7 +9,7 @@
 .task.reminder {
     border-left: 5px solid green;
 }
-h2 {
+h3 {
     display: flex;
     justify-content: space-between;
 }
